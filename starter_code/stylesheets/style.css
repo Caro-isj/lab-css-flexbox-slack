@@ -8,3 +8,51 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.containerlogos  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+
+}
+
+
+
+.purplebackground{
+background-color: #540B51;
+}
+
+
+   
+
+
+#logolist {
+background-color: #F3EAE2;
+display: flex;
+
+}
+
+.sign-up-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.google-button-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4285F4;
+
+}
+
+.google-button-container img{
+    background-color: white;
+}
