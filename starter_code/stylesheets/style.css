@@ -8,36 +8,66 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+@media (max-width: 768px) {
+
 
 h1 {
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 5rem;
+    padding: 10px;
+    font-weight: lighter;
+    
 }
+
+header p {
+    color: #ECB12F;
+    font-size: 2em;
+    text-align: center;
+}
+
+
 
 .containerlogos  {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
-
-
 }
 
+.sign-up-options button{
+    height: 120px;
+    margin: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 2em;
+    
+    
+}
 
+.mainlogo {
+    width: 200px;
+}
 
 .purplebackground{
 background-color: #540B51;
 }
 
 
-   
-
-
 #logolist {
 background-color: #F3EAE2;
 display: flex;
+justify-content: center;
 
+}
+
+#logolist img {
+ width: 100px;
 }
 
 .sign-up-options{
@@ -55,4 +85,10 @@ display: flex;
 
 .google-button-container img{
     background-color: white;
+}
+
+#trial-sale-buttons{
+    background-color: #540B51;  
+}
+
 }
